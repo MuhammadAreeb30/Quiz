@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-dev {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #18dcff;
+    display: grid;
+    place-items: center;
+}
+
+.quiz-dev {
+    text-align: center;
+    width: 40vw;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 3rem 2rem;
+}
+
+.quiz-dev h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.quiz-dev ul {
+    margin: 3rem auto;
+}
+
+.quiz-dev ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    cursor: pointer;
+}
+
+.submit {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    background-color: #7efff5;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #67e6dc;
+}
+
+.bg{
+    color: #785e5e;
+    margin-top: 3rem;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+ 
+    width: 25vw;
+    height: 25vh;
+    background-color: #55efc4;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    margin-top: 1rem;
+    background-color: #ff7675;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d63031;
+}
+
+.scoreArea {
+    display: none;
+}
